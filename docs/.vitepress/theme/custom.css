@@ -1,0 +1,8 @@
+/**
+ * Global overrides — prefer VitePress CSS variables (no hard-coded hex).
+ * Dark mode follows the default theme; do not duplicate under [data-theme="dark"].
+ */
+:root {
+  --vp-c-brand-1: var(--vp-c-brand);
+  --vp-c-brand-2: var(--vp-c-brand-soft);
+}
